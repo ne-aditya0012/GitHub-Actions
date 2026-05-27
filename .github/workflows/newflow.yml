@@ -1,0 +1,9 @@
+name: newflow demo
+run-name: yoyo
+on:
+  workflow_dispatch: 
+jobs:
+  Demo_Jobs:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo "hello aditya"
